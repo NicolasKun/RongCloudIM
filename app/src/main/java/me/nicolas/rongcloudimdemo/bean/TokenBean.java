@@ -1,0 +1,38 @@
+package me.nicolas.rongcloudimdemo.bean;
+
+/**
+ * Created by LeeQ
+ * Date : 2016-09-13
+ * Name : RongCloudIMDemo
+ * Use :
+ */
+public class TokenBean {
+
+    private int code;
+    private String userId;
+    private String token;
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+}

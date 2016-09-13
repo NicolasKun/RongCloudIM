@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="me.nicolas.rongcloudimdemo.IMChat">
+    tools:context=".ui.IMChat">
 
     <fragment
         android:id="@+id/ai_fragment"
